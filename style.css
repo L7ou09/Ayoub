@@ -1,0 +1,462 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+li a:hover{
+    border-bottom: 2.2px solid;
+    transition: 1s;
+}
+
+body{
+    background: rgb(31, 31, 38);
+}
+
+.meow{
+    display: flex;
+    color: black;
+    font-size: 30px;
+    margin-right: 30rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+}
+
+.cats{
+    color: black;
+}
+
+.about{
+    color: black;
+}
+
+.home{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+}
+
+header ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 1200px auto;
+}
+
+span{
+    display: flex;
+    background-color: rgb(255, 166, 0);
+    border-bottom: 1.5px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40cm;
+}
+
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.title{
+    margin-left: 200px;
+    margin-top: 60px;
+    display: flex;
+    color: white;
+}
+
+.name{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 200px;
+    color: rgb(255, 166, 0);
+}
+
+
+.click{
+    color: black;
+    background-color: rgb(255, 166, 0);
+    width: 100px;
+    height: 35px;
+    display: flex;
+    padding-left: 31px;
+    padding-top: 8px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 16px;
+}
+
+.click:hover{
+    border: 1.5px solid;
+    color: black;
+    transition: 1s;
+    border: none;
+    box-shadow: 0 0 3px 3px white inset;
+}
+
+.click:active{
+    transition: 0.5s;
+    box-shadow: 0 0 3px 3px white inset;
+}
+
+.down{
+    color: black;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-top: -34px;
+    width: 170px;
+    margin-left: 340px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    border: none;
+}
+
+.down:hover{
+    color: black;
+    box-shadow: 0 0 3px 3px black inset;
+    transition: 1s;
+}
+
+.down:active{
+    background-color: orange;
+    transition: 0.5s;
+    box-shadow: 0 0 3px 3px black inset;
+}
+
+.js{
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 0;
+    width: 400px;
+    height: 505px;
+}
+
+.pop{
+    margin-top: 60px;
+    margin-left: 150px;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    height: 146px;
+    width: 5px;
+    border-radius: 10px 10px;
+}
+
+.ay b{
+    font-size: 35px;
+    margin-left: 950px;
+    margin-top: 280px;
+    color: rgb(255, 166, 0);
+    position: absolute;
+    display: flex;
+}
+
+.n{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 950px;
+    margin-top: 310px;
+    color: rgb(255, 166, 0);
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.line{
+    position: absolute;
+    display: grid;
+    background-color: white;
+    height: 175px;
+    width: 5px;
+    border-radius: 10px 10px;
+    margin-left: 910px;
+    margin-top: 283px;
+}
+
+.lm{
+    padding-top: 7px;
+    padding-left: 7px;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    margin-left: 1150px;
+    margin-top: 285px;
+    position: absolute;
+    display: flex;
+    background-color: rgb(255, 166, 0);
+}
+
+.lm:hover{
+    transition: 1s;
+    width: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 5px;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+.table-white{
+    color: white;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(to top, orange 75%, black 25%);
+    width: 680px;
+    height: 450px;
+    margin-top: 400px;
+    margin-left: 60px;
+    border-radius: 40px;
+    padding-top: 32px;
+    padding-left: 300px;
+    border: 0.7px solid white;
+    font-size: 30px;
+    box-shadow: 0 0 6px 6px black inset;
+}
+
+.about-cats{
+    line-height: 1.9;
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    margin-top: 530px;
+    padding-left: 93px;
+    width: 700px;
+}
+
+.table-red{
+    box-shadow: 0 0 6px 5px black inset;
+    font-size: 30px;
+    padding-top: 32px;
+    padding-left: 263px;
+    border: 0.7px solid white;
+    border-radius: 40px;
+    position: absolute;
+    background: linear-gradient(to top, orange 75%, black 25%);
+    width: 680px;
+    height: 450px;
+    display: flex;
+    margin-left: 770px;
+    margin-top: 400px;
+}
+
+
+.Cats{
+    color: white;
+}
+
+.Orange{
+    color: orange;
+}
+
+.o{
+    margin-left: 60px;
+    margin-top: 358px;
+    position: absolute;
+    display: flex;
+    background: orange;
+    width: 1380px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.o:hover{
+    background: white;
+}
+
+.faf{
+    z-index: 2;
+    grid-area: 1 / 1;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    display: flex;
+    margin-top: 525px;
+    margin-left: 650px;
+}
+
+@media (max-width: 1023px) {
+
+    span{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 400px;
+        font-size: x-large;
+    }
+
+    span ul li a{
+        font-size: 100px;
+        margin-top: 100px;
+        justify-content: space-evenly;
+    } 
+
+    .navigation{
+        width: 100px;
+    }
+
+
+    .meow{
+        width: 50px;
+        font-size: 100px;
+        margin-top: 100px;
+    }
+
+    .title{
+        margin-left: 265px;
+        width: 1500px;
+        font-size: 250px;
+    }
+
+    .name{
+        margin-left: 265px;
+        width: 1500px;
+        font-size: 250px;
+    }
+
+    .pop{
+        width: 50px;
+        border-radius: 100px;
+        height: 870px;
+    }
+
+    .click{
+        width: 500px;
+        height: 200px;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 100px;
+        padding-left: 130px;
+        padding-top: 40px;
+        font-size: 100px;
+    }
+
+    .down{
+        width: 810px;
+        height: 200px;
+        margin-top: -200px;
+        margin-left: 660px;
+        border-radius: 100px;
+        padding-left: 100px;
+        padding-top: 40px;
+        font-size: 100px;
+    }
+
+    .js{
+        margin-top: 1180px;
+        width: 150%;
+        height: 90%;
+        margin-left: 90px;
+    }
+
+    .ay b{
+        margin-top: 3100px;
+        margin-left: 100px;
+        width: 1500px;
+        font-size: 300px;
+    }
+
+    .lm{
+        color: black;
+        border-radius: 150px;
+        margin-top: 3500px;
+        margin-left: 400px;
+        height: 300px;
+        width: 700px;
+        font-size: 150px;
+        padding-left: 270px;
+        padding-top: 58px;
+        display: flex;
+    }
+
+    .lm:hover{
+        color: black;
+        border-radius: 150px;
+        margin-top: 3500px;
+        margin-left: 400px;
+        height: 300px;
+        width: 700px;
+        font-size: 150px;
+        padding-left: 180px;
+        padding-top: 58px;
+
+
+    }
+
+    .n{
+        line-height: 150px;
+        width: 1200px;
+        font-size: 100px;
+        margin-top: 3800px;
+        margin-left: 350px;
+    }
+
+    .line{
+        width: 50px;
+        border-radius: 100px;
+        height: 1300px;
+        margin-top: 3900px;
+        margin-left: 150px;
+    }
+
+    .faf{
+        margin-left: 280px;
+        margin-top: 5500px;
+        width: 1100px;
+        font-size: 200px;
+    }
+
+    .o{
+        border-radius: 50px;
+        margin-top: 4400px;
+        height: 50px;
+        width: 1450px;
+    }
+
+    .table-white{
+        border-radius: 200px;
+        font-size: 175px;
+        padding-top: 400px;
+        padding-left: 537px;
+        margin-top: 4680px;
+        width: 1450px;
+        height: 4050px;
+    }
+
+    .about-cats{
+        margin-left: 70px;
+        margin-top: 5710px;
+        line-height: 130px;
+        font-size: 95px;
+        width: 1420px;
+    }
+
+    .table-red{
+        border-radius: 200px;
+        font-size: 175px;
+        padding-top: 160px;
+        padding-left: 150px;
+        margin-top: 9000px;
+        margin-left: 60px;
+        width: 1450px;
+        height: 2050px;
+    }
+
+}
